@@ -1,0 +1,68 @@
+{
+    "nome": "felca",
+    "acoes": [
+        {
+            "nome": "Verificar",
+            "objetos": [
+                "rotas"
+            ]
+        },
+        {
+            "nome": "Analisar",
+            "objetos": [
+                "rotas"
+            ]
+        },
+        {
+            "nome": "Marcar",
+            "objetos": [
+                "manutenção",
+                "conserto"
+            ]
+        },
+        {
+            "nome": "Agendar",
+            "objetos": [
+                "manutenção",
+                "conserto"
+            ]
+        },
+        {
+            "nome": "Mostrar",
+            "objetos": [
+                "carro",
+                "veículo"
+            ]
+        },
+        {
+            "nome": "Localizar",
+            "objetos": [
+                "carro",
+                "veículo"
+            ]
+        },
+        {
+            "nome": "Encontrar",
+            "objetos": [
+                "carro",
+                "veículo"
+            ]
+        },
+        {
+            "nome": "Gerar",
+            "objetos": [
+                "relatório",
+                "dados"
+            ]
+        },
+        {
+            "nome": "Fazer",
+            "objetos": [
+                "relatório",
+                "dados"
+            ]
+        }
+        
+                
+    ]
+}

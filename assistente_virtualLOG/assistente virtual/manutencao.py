@@ -5,7 +5,7 @@ def marcar_manutencao():
     return None
 
 def atuar_sobre_manutencao(acao, objeto, _):
-    if acao in ["marcar", "agendar"] and objeto in ["manutenção", "conserto"]:
+    if acao in ["marcar", "agendar"] and objeto in ["manutencao"]:
         
         numero = random.randint(1, 3)
         
@@ -22,7 +22,7 @@ def atuar_sobre_manutencao(acao, objeto, _):
         
         print("Atuação sobre marcar manutenção finalizada!")
         
-    elif acao in ["Desmarcar", "cancelar"] and objeto in ["Manutenção"]:
+    elif acao in ["desmarcar"] and objeto in ["manutencao"]:
         print("A manutenção do veículo foi cancelada!")
         
     sleep(5)

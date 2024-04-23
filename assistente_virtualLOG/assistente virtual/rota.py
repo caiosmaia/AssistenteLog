@@ -5,7 +5,7 @@ def verificar_rota():
     return None
 
 def atuar_sobre_rota(acao, objeto, _):
-    if acao in ["Verificar", "Analisar"] and objeto in ["rota"]:
+    if acao in ["verificar", "analisar"] and objeto in ["rota"]:
         numero = random.randint(1, 3)
         
         if numero == 1:

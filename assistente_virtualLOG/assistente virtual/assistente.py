@@ -9,7 +9,7 @@ import json
 
 IDIOMA_CORPUS = "portuguese"
 IDIOMA_FALA = "pt-BR"
-CAMINHO_CONFIGURACAO = "assistente virtual\config.json"
+CAMINHO_CONFIGURACAO = "assistente virtual/config.json"
 
 ATUADORES = [
     {
@@ -99,7 +99,7 @@ def processar_audio_de_teste(audio, reconhecedor):
 
 def transcrever_fala(fala, reconhecedor):
     tem_transcricao = False
-    transcricao = ""  # Inicializa com uma string vazia
+    transcricao = None
 
     try:
         transcricao = reconhecedor.recognize_google(fala, language=IDIOMA_FALA)
@@ -108,7 +108,7 @@ def transcrever_fala(fala, reconhecedor):
         # Processar os erros de transcricao
         ...
 
-    return tem_transcricao, transcricao.lower()
+    return tem_transcricao, transcricao.lower() if tem_transcricao else None
 
 
 def tokenizar_transcricao(transcricao):

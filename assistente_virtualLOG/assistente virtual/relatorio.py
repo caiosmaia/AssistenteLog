@@ -6,7 +6,7 @@ def gerar_relatorio():
 
 def atuar_sobre_relatorio(acao, objeto, _):
     
-    if acao in ["Gerar", "Fazer"] and objeto in ["relatório", "dados"]:
+    if acao in ["gerar", "fazer"] and objeto in ["relatorio"]:
             
         numero = random.randint(1, 3)
         

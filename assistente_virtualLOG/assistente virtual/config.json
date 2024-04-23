@@ -1,65 +1,58 @@
 {
-    "nome": "felca",
+    "nome": "log",
     "acoes": [
         {
-            "nome": "Verificar",
+            "nome": "verificar",
             "objetos": [
-                "rotas"
+                "rota"
             ]
         },
         {
-            "nome": "Analisar",
+            "nome": "analisar",
             "objetos": [
-                "rotas"
+                "rota"
             ]
         },
         {
-            "nome": "Marcar",
+            "nome": "marcar",
             "objetos": [
-                "manutenção",
-                "conserto"
+                "manutencao"
             ]
         },
         {
-            "nome": "Agendar",
+            "nome": "desmarcar",
             "objetos": [
-                "manutenção",
-                "conserto"
+                "manutencao"
             ]
         },
         {
-            "nome": "Mostrar",
+            "nome": "agendar",
             "objetos": [
-                "carro",
-                "veículo"
+                "manutencao"
             ]
         },
         {
-            "nome": "Localizar",
+            "nome": "localizar",
             "objetos": [
-                "carro",
-                "veículo"
+                "veiculo"
             ]
         },
         {
-            "nome": "Encontrar",
+            "nome": "encontrar",
             "objetos": [
-                "carro",
-                "veículo"
+                "veiculo"
             ]
         },
         {
-            "nome": "Gerar",
+            "nome": "gerar",
             "objetos": [
-                "relatório",
-                "dados"
+                "relatorio"
             ]
         },
         {
-            "nome": "Fazer",
+            "nome": "fazer",
             "objetos": [
-                "relatório",
-                "dados"
+                "relatorio"
             ]
         }
         
